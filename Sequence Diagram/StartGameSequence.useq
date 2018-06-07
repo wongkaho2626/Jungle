@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="main.Main" project="The Jungle Game" file="/The Jungle Game/src/main/Main.java" 
+    binary="false" label="main" type="class" autoSize="false">    
+    <position height="101" width="84" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="1110" width="80" x="5" y="78"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="gui.JungleGameGUI" project="The Jungle Game" 
+    file="/The Jungle Game/src/gui/JungleGameGUI.java" binary="false" label="jungleGameGUI" type="class" 
+    autoSize="false">    
+    <position height="263" width="141" x="84" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="132" x="89" y="99"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="109" width="203" x="89" y="134"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="gui.BoxGUI" project="The Jungle Game" 
+    file="/The Jungle Game/src/gui/BoxGUI.java" binary="false" label="boxGUI" type="class" autoSize="false">    
+    <position height="242" width="83" x="296" y="0"/>    
+    <execution id="11">      
+      <position height="21" width="75" x="296" y="201"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="main.JungleGame" project="The Jungle Game" 
+    file="/The Jungle Game/src/main/JungleGame.java" binary="false" label="jungleGame" type="class" autoSize="false">    
+    <position height="1187" width="112" x="433" y="0"/>    
+    <execution id="8">      
+      <position height="890" width="108" x="225" y="277"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="308" width="7" x="519" y="838"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="21" width="7" x="522" y="951"/>    
+    </execution>  
+  </object>  
+  <object id="34" language="java" name="main.Player" project="The Jungle Game" 
+    file="/The Jungle Game/src/main/Player.java" binary="false" label="player" type="class" autoSize="false">    
+    <position height="385" width="70" x="573" y="0"/>    
+    <execution id="15">      
+      <position height="21" width="66" x="337" y="346"/>    
+    </execution>  
+  </object>  
+  <object id="35" language="java" name="main.ChessBoard" project="The Jungle Game" 
+    file="/The Jungle Game/src/main/ChessBoard.java" binary="false" label="chessBoard" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="713" y="0"/>    
+    <execution id="17">      
+      <position height="21" width="106" x="664" y="422"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="103" width="106" x="664" y="467"/>    
+    </execution>  
+  </object>  
+  <object id="38" language="java" name="piece.Piece" project="The Jungle Game" 
+    file="/The Jungle Game/src/piece/Piece.java" binary="false" label="piece" type="class" autoSize="false">    
+    <position height="575" width="75" x="753" y="0"/>    
+    <execution id="37">      
+      <position height="21" width="205" x="774" y="534"/>    
+    </execution>  
+  </object>  
+  <object id="39" language="java" name="gui.StartingPlacePieceGUI" project="The Jungle Game" 
+    file="/The Jungle Game/src/gui/StartingPlacePieceGUI.java" binary="false" label="startingPlacePieceGUI" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="851" y="0"/>    
+    <execution id="21">      
+      <position height="21" width="174" x="955" y="602"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="94" width="174" x="955" y="642"/>    
+    </execution>  
+  </object>  
+  <object id="42" language="java" name="gui.PieceGUI" project="The Jungle Game" 
+    file="/The Jungle Game/src/gui/PieceGUI.java" binary="false" label="pieceGUI" type="class" autoSize="false">    
+    <position height="750" width="89" x="1006" y="0"/>    
+    <execution id="41">      
+      <position height="21" width="85" x="1336" y="709"/>    
+    </execution>  
+  </object>  
+  <object id="43" language="java" name="movement.DefaultMove" project="The Jungle Game" 
+    file="/The Jungle Game/src/movement/DefaultMove.java" binary="false" label="defaultMove" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="691" y="0"/>    
+    <execution id="27">      
+      <position height="73" width="107" x="1491" y="900"/>    
+    </execution>  
+  </object>  
+  <object id="46" language="java" name="gui.MovePieceGUI" project="The Jungle Game" 
+    file="/The Jungle Game/src/gui/MovePieceGUI.java" binary="false" label="movePieceGUI" type="class" autoSize="false">    
+    <position height="972" width="125" x="1206" y="0"/>    
+    <execution id="45">      
+      <position height="21" width="158" x="1602" y="931"/>    
+    </execution>  
+  </object>  
+  <object id="47" language="java" name="main.Save" project="The Jungle Game" file="/The Jungle Game/src/main/Save.java" 
+    binary="false" label="save" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="263" y="0"/>    
+    <execution id="31">      
+      <position height="21" width="56" x="1764" y="1065"/>    
+    </execution>    
+    <execution id="33">      
+      <position height="21" width="56" x="1764" y="1104"/>    
+    </execution>  
+  </object>  
+  <combined-fragment id="48" interaction-operator="LOOP">    
+    <interaction-operand id="49" constraint="player == 2">      
+      <fragment refId="14"/>    
+    </interaction-operand>  
+  </combined-fragment>  
+  <combined-fragment id="50" interaction-operator="LOOP">    
+    <interaction-operand id="51" constraint="piece == 16">      
+      <fragment refId="36"/>    
+    </interaction-operand>  
+  </combined-fragment>  
+  <combined-fragment id="52" interaction-operator="LOOP">    
+    <interaction-operand id="53" constraint="box == 63">      
+      <fragment refId="10"/>    
+    </interaction-operand>  
+  </combined-fragment>  
+  <combined-fragment id="54" interaction-operator="LOOP">    
+    <interaction-operand id="55">      
+      <fragment refId="40"/>    
+    </interaction-operand>  
+  </combined-fragment>  
+  <combined-fragment id="56" interaction-operator="OPT">    
+    <interaction-operand id="57" constraint="getQuery() == true">      
+      <fragment refId="24"/>      
+      <fragment refId="58"/>      
+      <fragment refId="44"/>    
+    </interaction-operand>    
+    <combined-fragment id="58" interaction-operator="OPT">      
+      <interaction-operand id="59" constraint="checkStep == true">        
+        <fragment refId="28"/>        
+        <fragment refId="26"/>      
+      </interaction-operand>    
+    </combined-fragment>  
+  </combined-fragment>  
+  <combined-fragment id="60" interaction-operator="OPT">    
+    <interaction-operand id="61" constraint="SaveButtonClick == true">      
+      <fragment refId="30"/>      
+      <fragment refId="32"/>    
+    </interaction-operand>  
+  </combined-fragment>  
+  <message id="3" operation="JungleGameGUI()" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="startNewGame():void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="JungleGame(gui.JungleGameGUI)" asynchronous="false" x="50" y="257">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="10" operation="BoxGUI(java.lang.String,javax.swing.JLabel)" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="14" operation="Player(java.lang.String,boolean,boolean)" asynchronous="false" x="374" y="325">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" operation="ChessBoard(main.Player,main.Player)" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="init():void" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="StartingPlacePieceGUI(gui.JungleGameGUI,main.ChessBoard,main.Player,main.Player)" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="init():void" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" operation="checkStep(gui.JungleGameGUI,main.Player,java.lang.String,main.ChessBoard):boolean" 
+    asynchronous="false" x="373" y="797">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" 
+    operation="move(gui.JungleGameGUI,main.Player,java.lang.String,java.lang.String,main.ChessBoard):boolean" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="checkWin(main.Player,main.ChessBoard):void" asynchronous="false" x="375" y="912">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="30" operation="Save(gui.JungleGameGUI,main.Player,main.Player,main.ChessBoard)" asynchronous="false" 
+    x="530" y="1048">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="32" operation="saveToJsonFile():void" asynchronous="false" x="533" y="1085">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>  
+  <message id="36" operation="Piece(main.Player,java.lang.String)" asynchronous="false">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="37"/>  
+  </message>  
+  <message id="40" operation="PieceGUI(piece.Piece,java.lang.String)" asynchronous="false" x="773" y="688">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="41"/>  
+  </message>  
+  <message id="44" operation="movePiece(piece.Piece):void" asynchronous="false">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="45"/>  
+  </message>
+</sequence-diagram>

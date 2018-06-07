@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="main.JungleGame" project="The Jungle Game" 
+    file="/The Jungle Game/src/main/JungleGame.java" binary="false" label="jungleGame" type="class" autoSize="false">    
+    <position height="288" width="222" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="125" width="7" x="519" y="143"/>    
+    </execution>  
+  </object>  
+  <object id="7" language="java" name="main.Save" project="The Jungle Game" file="/The Jungle Game/src/main/Save.java" 
+    binary="false" label="save" type="class" autoSize="false">    
+    <position height="1145" width="285" x="112" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="56" x="1764" y="164"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="21" width="56" x="1764" y="226"/>    
+    </execution>  
+  </object>  
+  <combined-fragment id="8" interaction-operator="OPT">    
+    <interaction-operand id="9" constraint="SaveButtonClick == true">      
+      <fragment refId="3"/>      
+      <fragment refId="5"/>    
+    </interaction-operand>  
+  </combined-fragment>  
+  <message id="3" operation="Save(gui.JungleGameGUI,main.Player,main.Player,main.ChessBoard)" asynchronous="false" 
+    x="127" y="138">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="saveToJsonFile():void" asynchronous="false" x="114" y="207">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>
+</sequence-diagram>

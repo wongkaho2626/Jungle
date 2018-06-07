@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="main.JungleGame" project="The Jungle Game" 
+    file="/The Jungle Game/src/main/JungleGame.java" binary="false" label="jungleGame" type="class" autoSize="false">    
+    <position height="436" width="171" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="290" width="108" x="225" y="126"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="227" width="7" x="519" y="168"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="7" x="522" y="353"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="gui.PieceGUI" project="The Jungle Game" 
+    file="/The Jungle Game/src/gui/PieceGUI.java" binary="false" label="pieceGUI" type="class" autoSize="false">    
+    <position height="101" width="192" x="171" y="0"/>  
+  </object>  
+  <object id="10" language="java" name="movement.DefaultMove" project="The Jungle Game" 
+    file="/The Jungle Game/src/movement/DefaultMove.java" binary="false" label="defaultMove" type="class" 
+    autoSize="false">    
+    <position height="323" width="223" x="363" y="0"/>    
+    <execution id="6">      
+      <position height="73" width="107" x="1491" y="230"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="gui.MovePieceGUI" project="The Jungle Game" 
+    file="/The Jungle Game/src/gui/MovePieceGUI.java" binary="false" label="movePieceGUI" type="class" autoSize="false">    
+    <position height="972" width="125" x="1206" y="0"/>    
+    <execution id="12">      
+      <position height="21" width="158" x="1602" y="261"/>    
+    </execution>  
+  </object>  
+  <combined-fragment id="14" interaction-operator="OPT">    
+    <interaction-operand id="15" constraint="getQuery() == true">      
+      <fragment refId="3"/>      
+      <fragment refId="16"/>    
+    </interaction-operand>    
+    <combined-fragment id="16" interaction-operator="OPT">      
+      <interaction-operand id="17" constraint="checkStep == true">        
+        <fragment refId="7"/>        
+        <fragment refId="11"/>        
+        <fragment refId="5"/>      
+      </interaction-operand>    
+    </combined-fragment>  
+  </combined-fragment>  
+  <message id="3" operation="checkStep(gui.JungleGameGUI,main.Player,java.lang.String,main.ChessBoard):boolean" 
+    asynchronous="false" x="96" y="126">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" 
+    operation="move(gui.JungleGameGUI,main.Player,java.lang.String,java.lang.String,main.ChessBoard):boolean" 
+    asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="checkWin(main.Player,main.ChessBoard):void" asynchronous="false" x="98" y="309">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="11" operation="movePiece(piece.Piece):void" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>
+</sequence-diagram>

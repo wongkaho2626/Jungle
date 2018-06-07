@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.2" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="main.JungleGame" project="The Jungle Game" 
+    file="/The Jungle Game/src/main/JungleGame.java" binary="false" label="jungleGame" type="class" autoSize="false">    
+    <position height="195" width="134" x="0" y="0"/>    
+    <execution id="2">      
+      <position height="209" width="108" x="5" y="110"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="146" width="108" x="5" y="152"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="gui.JungleGameGUI" project="The Jungle Game" 
+    file="/The Jungle Game/src/gui/JungleGameGUI.java" binary="false" label="jungleGameGUI" type="class" 
+    autoSize="false">    
+    <position height="195" width="172" x="134" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="132" x="139" y="214"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="168" x="139" y="256"/>    
+    </execution>  
+  </object>  
+  <combined-fragment id="10" interaction-operator="OPT">    
+    <interaction-operand id="11">      
+      <fragment refId="5"/>      
+      <fragment refId="7"/>      
+      <fragment refId="3"/>    
+    </interaction-operand>  
+  </combined-fragment>  
+  <message id="3" operation="startNewGame():void" asynchronous="false" x="78" y="111">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="reset():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="initialize():void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>
+</sequence-diagram>
